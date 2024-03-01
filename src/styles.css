@@ -1,0 +1,30 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body[theme="dark"] {
+  background-image: url("./images/images_dark.jpg");
+  color: rgb(254, 254, 254);
+}
+body[theme="light"] {
+  background-image: url("./images/images_light.jpg");
+  color: rgb(2, 251, 255);
+  text-shadow: 2px 2px 3px black;
+}
+
+body[theme="winter"] {
+  background-image: url("./images/winter2.jpg");
+  color: aliceblue;
+}
+
+body[theme="summer"] {
+  background-image: url("./images/summer_2.jpg");
+  color: rgb(5, 255, 55);
+  text-shadow: 3px 2px 3px black;
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0;
+}
